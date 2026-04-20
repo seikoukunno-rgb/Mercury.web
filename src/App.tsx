@@ -66,6 +66,27 @@ const LegalModal = ({ isOpen, title, content, onClose }: { isOpen: boolean, titl
   </AnimatePresence>
 );
 
+const Logo = ({ className = "w-10 h-10", iconOnly = false }: { className?: string, iconOnly?: boolean }) => {
+  const [error, setError] = useState(false);
+
+  if (error) {
+    return (
+      <div className={`flex items-center justify-center bg-linear-to-br from-mercury-blue to-mercury-purple text-white shadow-lg ${className} rounded-xl font-display font-bold italic`}>
+        M
+      </div>
+    );
+  }
+
+  return (
+    <img 
+      src="/logo.png" 
+      alt="Mercury" 
+      className={`${className} object-contain`}
+      onError={() => setError(true)}
+    />
+  );
+};
+
 const Nav = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -82,12 +103,7 @@ const Nav = () => {
         <div className="flex items-center gap-4 group cursor-pointer">
           <div className="relative">
             <div className="absolute inset-0 bg-mercury-blue/20 blur-lg rounded-full group-hover:bg-mercury-blue/40 transition-all"></div>
-            <img 
-              src="/logo.png" 
-              alt="Mercury Logo" 
-              className="relative w-12 h-12 rounded-2xl shadow-xl border border-white/50 bg-white/80 backdrop-blur-sm group-hover:scale-110 transition-transform duration-500"
-              referrerPolicy="no-referrer"
-            />
+            <Logo className="relative w-12 h-12 rounded-2xl shadow-xl border border-white/50 bg-white/80 backdrop-blur-sm group-hover:scale-110 transition-transform duration-500" />
           </div>
           <div className="flex flex-col -gap-1">
             <span className="text-2xl font-display font-black tracking-tighter text-mercury-text leading-none">Mercury</span>
@@ -205,12 +221,7 @@ export default function App() {
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-mercury-blue/10 rounded-full blur-[120px] -z-10 animate-pulse"></div>
             <div className="relative inline-block group mb-16">
               <div className="absolute -inset-8 bg-linear-to-tr from-mercury-blue/20 to-mercury-purple/20 rounded-[4rem] blur-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-1000"></div>
-              <img 
-                src="/logo.png" 
-                alt="Mercury Hero Logo" 
-                className="relative w-48 h-48 md:w-72 md:h-72 rounded-[3.5rem] shadow-[0_40px_80px_-20px_rgba(0,0,0,0.1)] bg-white p-6 border border-white/80 group-hover:scale-105 transition-transform duration-1000 ease-out"
-                referrerPolicy="no-referrer"
-              />
+              <Logo className="relative w-48 h-48 md:w-72 md:h-72 rounded-[3.5rem] shadow-[0_40px_80px_-20px_rgba(0,0,0,0.1)] bg-white p-6 border border-white/80 group-hover:scale-105 transition-transform duration-1000 ease-out" />
               {/* Decorative floating orbits */}
               <motion.div 
                 animate={{ rotate: 360 }}
@@ -358,13 +369,8 @@ export default function App() {
         <div className="max-w-4xl mx-auto px-6 text-center">
           <div className="relative inline-block mb-12">
             <div className="absolute inset-0 bg-mercury-blue/20 blur-2xl rounded-full scale-150"></div>
-            <div className="relative bg-white w-24 h-24 rounded-3xl shadow-xl flex items-center justify-center p-5 border border-slate-100">
-              <img 
-                src="/logo.png" 
-                alt="Mercury trust icon" 
-                className="w-full h-full object-contain"
-                referrerPolicy="no-referrer"
-              />
+            <div className="relative bg-white w-24 h-24 rounded-3xl shadow-xl flex items-center justify-center border border-slate-100 overflow-hidden">
+              <Logo className="w-full h-full p-5" />
             </div>
           </div>
           <h2 className="text-3xl md:text-5xl font-bold mb-8 text-mercury-text">信頼と透明性のための、<br />Mercuryの約束。</h2>
@@ -451,12 +457,7 @@ export default function App() {
           <div className="grid md:grid-cols-4 gap-12 mb-20">
             <div className="col-span-2">
               <div className="flex items-center gap-3 mb-6">
-                <img 
-                  src="/logo.png" 
-                  alt="Mercury Logo" 
-                  className="w-8 h-8 rounded-lg bg-white border border-slate-100"
-                  referrerPolicy="no-referrer"
-                />
+                <Logo className="w-8 h-8 rounded-lg bg-white border border-slate-100" />
                 <span className="text-2xl font-display font-bold tracking-tight text-mercury-text">Mercury</span>
               </div>
               <p className="text-mercury-muted max-w-sm mb-8 leading-relaxed">
