@@ -66,24 +66,29 @@ const LegalModal = ({ isOpen, title, content, onClose }: { isOpen: boolean, titl
   </AnimatePresence>
 );
 
-const Logo = ({ className = "w-10 h-10", iconOnly = false }: { className?: string, iconOnly?: boolean }) => {
+const Logo = ({ className = "w-10 h-10" }: { className?: string }) => {
   const [error, setError] = useState(false);
 
   if (error) {
     return (
-      <div className={`flex items-center justify-center bg-linear-to-br from-mercury-blue to-mercury-purple text-white shadow-lg ${className} rounded-xl font-display font-bold italic`}>
-        M
+      <div className={`${className} relative flex items-center justify-center bg-linear-to-br from-slate-50 to-slate-200 rounded-2xl overflow-hidden shadow-xs border border-slate-200`}>
+        <svg viewBox="0 0 100 100" className="w-full h-full p-2" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="50" cy="50" r="40" fill="#f1f5f9" stroke="#cbd5e1" strokeWidth="2" />
+          <path d="M35 65V35L50 50L65 35V65" stroke="#64748b" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
       </div>
     );
   }
 
   return (
-    <img 
-      src="/logo.png" 
-      alt="Mercury" 
-      className={`${className} object-contain`}
-      onError={() => setError(true)}
-    />
+    <div className={`${className} relative flex items-center justify-center bg-white rounded-2xl overflow-hidden shadow-xs border border-slate-100`}>
+      <img 
+        src="/logo.png" 
+        alt="Mercury Logo" 
+        className="w-full h-full object-contain p-1"
+        onError={() => setError(true)}
+      />
+    </div>
   );
 };
 
