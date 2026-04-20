@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'Space Grotesk', 'Inter', sans-serif;
+
+  --color-mercury-light: #F8FAFC;
+  --color-mercury-bg: #FFFFFF;
+  --color-mercury-blue: #2563EB;
+  --color-mercury-cyan: #06B6D4;
+  --color-mercury-purple: #7C3AED;
+  --color-mercury-accent: #00D1FF;
+  --color-mercury-text: #0F172A;
+  --color-mercury-muted: #64748B;
+}
+
+@layer base {
+  body {
+    @apply bg-mercury-light text-mercury-text font-sans antialiased selection:bg-mercury-cyan/20 selection:text-mercury-text;
+  }
+}
+
+.glass {
+  @apply bg-white/60 backdrop-blur-xl border border-black/5 shadow-sm;
+}
+
+.glass-dark {
+  @apply bg-black/5 backdrop-blur-xl border border-black/5;
+}
+
+.text-gradient {
+  @apply bg-clip-text text-transparent bg-linear-to-r from-mercury-blue via-mercury-cyan to-mercury-purple;
+}
+
+.glow-blue {
+  box-shadow: 0 10px 40px rgba(37, 99, 235, 0.15);
+}
+
+.glow-accent {
+  box-shadow: 0 20px 60px rgba(0, 209, 255, 0.1);
+}
+
+.card-future {
+  @apply bg-white border border-slate-100 shadow-[0_10px_30px_-15px_rgba(0,0,0,0.05)] hover:shadow-[0_20px_40px_-15px_rgba(0,0,0,0.1)] transition-all duration-500 rounded-[2rem];
+}
