@@ -198,112 +198,187 @@ Contact via the app or developer.
 export const TERMS_OF_SERVICE = `
 Mercury 利用規約
 
-第1条（適用および規約の構成）
-1. 本利用規約（以下「本規約」といいます。）は、当開発者が提供するアプリケーション「Mercury」（以下「本アプリ」といいます。）の利用条件を定めるものです。
-2. 本規約は、本アプリの利用に関する当開発者とユーザーとの間の一切の関係に適用されます。
-3. 当開発者は、本規約のほかに、本アプリの利用に関して個別規定を定めることがあります。
-4. 個別規定は本規約の一部を構成し、矛盾する場合は個別規定が優先されます。
-5. ユーザーは利用開始により、本規約のすべてに同意したものとみなされます。
+制定日：2026年10月5日
 
-第2条（定義）
-● 「コンテンツ」：テキスト、画像、動画、プログラム等
-● 「ユーザー投稿情報」：ユーザーが保存・投稿したPDFや学習履歴等
-● 「知的財産権」：著作権、特許権、商標権等
+第1条（適用）
+1. 本利用規約（以下「本規約」という。）は、運営者が提供する学習管理アプリ「Mercury」（以下「本アプリ」という。）の利用条件を定めるものである。
+2. 本規約は、本アプリを利用するすべての者（以下「ユーザー」という。）に適用される。
+3. 運営者が本アプリ上で別途定める注意事項、ガイドラインその他の規定は、本規約の一部を構成する。本規約と矛盾する場合は、当該規定が優先する。
 
-第3条（利用登録およびアカウント管理）
-1. 登録申請が当開発者に承認された時点で契約成立。
-2. 虚偽申請や過去の違反がある場合は登録を拒否。
-3. アカウント管理は自己責任。不正利用の損害はユーザー負担。
+第2条（利用の開始）
+1. ユーザーは、Googleアカウントでログインし、本規約に同意したうえで、本アプリの利用を開始するものとする。
+2. ログインして利用を開始した時点で、ユーザーは本規約に同意したものとみなす。
+3. 未成年者は、保護者の同意を得たうえで利用すること。
 
-第4条（サービス内容）
-教材検索、学習データ管理、学習記録、その他追加機能を提供。
+第3条（サービス内容）
+本アプリは、次の機能を基本無料で提供する。
 
-第5条（禁止事項）
-スクレイピング、リバースエンジニアリング、不正アクセス、サーバー負荷行為、他者の権利侵害、無断転載・再配布。
+1. PDFの閲覧、書き込み、注釈、検索
+2. 学習時間・学習内容の記録、および学習状況のグラフ表示
+3. 課題・やるべきことの管理（Todo）
+4. 学習時間に応じたレベルアップ等の機能
+5. 学習時間ランキング（すたらん）、ルーム、フォロワーなど、他のユーザーと交流する機能
+6. ユーザーが許可した場合のGoogleドライブとの連携
+7. その他、運営者が追加する機能
 
-第6条（違反時の措置）
-違反時はアカウント停止やデータ削除を実施。損害賠償義務や法的措置も含みます。
+第4条（利用料金）
+本アプリは基本無料で提供する。ただし、運営者が一部の機能を有料とする場合は、事前にその内容および料金を本アプリまたはウェブサイト上で知らせる。
 
-第7条（知的財産権）
-本アプリの権利は当開発者に帰属。ユーザー情報の権利はユーザーに留保（運営上必要な利用は許諾）。
+第5条（アカウントの管理）
+ユーザーは、自己のGoogleアカウントおよび端末を、自己の責任で管理するものとする。
 
-第8条（データおよびバックアップ）
-保存は保証されません。ユーザーは自己責任でバックアップを。
+第6条（Googleアカウントおよび外部サービスとの連携）
+1. 本アプリは、ユーザーが許可した範囲でのみ、Googleアカウントの情報（メールアドレス、氏名、プロフィール画像）およびGoogleドライブ上の、ユーザーが選択したファイルを利用する。
+2. ユーザーは、Googleアカウントの設定画面から、いつでも本アプリへの許可を取り消すことができる。
+3. 運営者は、Google、Supabase、Vercelなどの外部サービスを利用して本アプリを運営している。外部サービスの利用条件は、各提供者の定めるところによる。
 
-第9条（外部サービス）
-外部サービス（アフィリエイト等）の取引はユーザー責任。トラブルに当開発者は関与しません。
+第7条（禁止事項）
+ユーザーは、次の行為をしてはならない。
 
-第10条（サービスの変更・停止）
-保守、障害、不可抗力等で停止可能。サービス終了も可能。
+1. 法令または公序良俗に違反する行為
+2. 本アプリのサーバーやネットワークに過度な負荷をかける行為
+3. 不正アクセス、またはその試み
+4. 本アプリのスクレイピング、リバースエンジニアリング、その他の方法による解析
+5. 他者の権利（知的財産権、プライバシー、名誉など）を侵害する行為
+6. 本アプリの交流機能（ランキング、ルーム、フォロワー等）を通じて、他のユーザーに嫌がらせをし、または迷惑をかける行為
+7. 本アプリを、運営者が意図しない方法で利用し、または第三者に不正に利用させる行為
+8. 虚偽の学習記録を登録するなど、他のユーザーを欺く行為
+9. その他、運営者が不適切と判断する行為
 
-第11条（非保証）
-正確性、有用性、継続性、エラーの不在等を保証しません。
+第8条（知的財産権）
+本アプリおよびこれに付随する一切のコンテンツに関する知的財産権は、運営者または正当な権利者に帰属する。ユーザーは、これらを運営者の許可なく複製、転載、再配布してはならない。
 
-第12条（責任制限）
-責任は法令上許される最大限まで制限され、間接損害等は対象外。
+第9条（ユーザーのデータおよび公開される情報）
+1. ユーザーが本アプリに登録した学習記録その他のデータ（以下「ユーザーデータ」という。）の権利は、ユーザーに帰属する。
+2. 運営者は、本アプリの提供・維持・改善に必要な範囲でのみ、ユーザーデータを利用する。
+3. ランキング、ルーム、フォロワーなどの交流機能では、ユーザー名、学習時間その他の情報が、他のユーザーに表示される場合がある。ユーザーは、これに同意のうえ利用するものとする。
+4. ユーザーデータの取扱いは、別に定めるプライバシーポリシーに従う。
 
-第13条（プライバシー）
-個人情報はプライバシーポリシーに従い処理。
+第10条（データの保存）
+運営者は、ユーザーデータの保存に努めるが、その消失・破損が生じないことを保証しない。重要なデータは、ユーザー自身でも控えを取ること。
 
-第14条（規約変更）
-自由に変更可能。掲載時点で有効。
+第11条（サービスの変更・中断・終了）
+1. 運営者は、保守、障害、不可抗力その他の事情により、事前の通知なく本アプリの全部または一部を中断することがある。
+2. 運営者は、必要に応じて、本アプリの内容を変更し、または提供を終了することがある。終了する場合は、可能な限り事前に本アプリまたはウェブサイト上で知らせる。
 
-第15条（契約の終了）
-退会はいつでも可能。違反時は強制解約。
+第12条（利用の停止および退会）
+1. 運営者は、ユーザーが本規約に違反した場合、事前の通知なく、そのユーザーの利用を停止することがある。
+2. ユーザーは、第17条の連絡先に申し出ることにより、いつでも退会し、自己のデータの削除を求めることができる。
+
+第13条（免責）
+1. 本アプリは現状有姿で提供する。運営者は、本アプリの正確性、有用性、継続性、エラーがないことについて保証しない。
+2. 本アプリの利用により学習の成果が得られることを、運営者は保証しない。
+3. 交流機能を通じたユーザー間のトラブルについて、運営者は責任を負わない。ただし、運営者が必要と判断した場合は、対応を行うことがある。
+4. 本アプリの中断、変更、終了、またはユーザーデータの消失・破損によってユーザーに生じた損害について、運営者は責任を負わない。
+5. 運営者に故意または重大な過失がある場合には、本条および次条の免責・責任制限は適用されない。
+
+第14条（責任の制限）
+運営者がユーザーに対して損害賠償責任を負う場合でも、その範囲は、ユーザーに現実に生じた通常の直接損害に限る。
+
+第15条（規約の変更）
+1. 運営者は、必要に応じて本規約を変更することがある。
+2. 変更後の規約は、本アプリまたはウェブサイトに掲載した時点から効力を生じる。重要な変更を行う場合は、掲載を通じて事前に知らせる。
+3. 変更後に本アプリを利用した場合、ユーザーは変更後の規約に同意したものとみなす。
 
 第16条（準拠法・管轄）
-1. 日本法準拠
-2. 専属管轄：当開発者所在地裁判所
+本規約は日本法に準拠する。本アプリに関して紛争が生じた場合は、民事訴訟法に定める管轄裁判所を第一審の裁判所とする。
+
+第17条（連絡先）
+本規約および本アプリに関する問い合わせは、次の連絡先に行うこと。
+運営者：Mercury運営局
+メール：admin.mercury@gmail.com
 `;
 
 export const TERMS_OF_SERVICE_EN = `
 Mercury Terms of Service
 
+Established: October 5, 2026
+
 Article 1 (Application)
-These terms govern the use of "Mercury". By using the App, you agree to all provisions set forth herein.
+1. These Terms of Service (the "Terms") set out the conditions for using the study management app "Mercury" (the "App") provided by the operator.
+2. These Terms apply to everyone who uses the App ("Users").
+3. Notices, guidelines, and other rules separately established by the operator within the App form part of these Terms. In the event of a conflict, those rules take precedence.
 
-Article 2 (Definitions)
-Concerns "Content", "User Provided Info", and "Intellectual Property Rights".
+Article 2 (Starting Use)
+1. Users shall sign in with a Google account and agree to these Terms before starting to use the App.
+2. By signing in and starting to use the App, Users are deemed to have agreed to these Terms.
+3. Minors must obtain consent from a parent or guardian before using the App.
 
-Article 3 (Registration)
-Contract is formed upon approval. Users must manage account credentials responsibly.
+Article 3 (Services)
+The App provides the following features free of charge as its basic offering.
 
-Article 4 (Services)
-Provides material search, study management, and record analysis.
+1. PDF viewing, writing, annotation, and search
+2. Recording study time and study content, and displaying study progress in graphs
+3. Managing assignments and tasks (Todo)
+4. Features such as leveling up based on study time
+5. Features for interacting with other Users, such as study time rankings (Sutaran), rooms, and followers
+6. Google Drive integration when authorized by the User
+7. Other features added by the operator
 
-Article 5 (Prohibitions)
-Scraping, unauthorized access, reverse engineering, and redistribution are strictly prohibited.
+Article 4 (Fees)
+The App is basically free to use. If the operator makes certain features paid, their details and fees will be announced in advance within the App or on the website.
 
-Article 6 (Violations)
-Account suspension or removal may occur upon violation. Full compensation for damages required.
+Article 5 (Account Management)
+Users are responsible for managing their own Google accounts and devices.
 
-Article 7 (Rights)
-App rights belong to the developer. User keeps rights to their uploads but grants necessary usage rights for operation.
+Article 6 (Google Accounts and External Service Integration)
+1. The App uses Google account information (email address, name, and profile image) and files selected by the User on Google Drive only within the scope authorized by the User.
+2. Users may revoke permissions granted to the App at any time through their Google account settings.
+3. The operator uses external services such as Google, Supabase, and Vercel to operate the App. The terms of each external service are determined by its provider.
 
-Article 8 (Backup)
-No guarantee for data storage. Users should maintain their own backups.
+Article 7 (Prohibited Conduct)
+Users must not engage in any of the following acts.
 
-Article 9 (External Services)
-Third-party transactions are at the user's own risk.
+1. Acts that violate laws or public order and morals
+2. Placing excessive load on the App's servers or networks
+3. Unauthorized access or attempts to gain unauthorized access
+4. Analyzing the App through scraping, reverse engineering, or other methods
+5. Infringing the rights of others, including intellectual property rights, privacy, and reputation
+6. Harassing or causing inconvenience to other Users through the App's interaction features, including rankings, rooms, and followers
+7. Using the App in ways not intended by the operator or allowing third parties to use it improperly
+8. Deceiving other Users, such as by registering false study records
+9. Other acts deemed inappropriate by the operator
 
-Article 10 (Suspension)
-Service may be suspended for maintenance, failures, or force majeure.
+Article 8 (Intellectual Property Rights)
+Intellectual property rights in the App and all associated content belong to the operator or the rightful rights holders. Users must not copy, republish, or redistribute them without the operator's permission.
 
-Article 11 (Disclaimer)
-No warranty for accuracy, usefulness, or error-free continuous access.
+Article 9 (User Data and Publicly Displayed Information)
+1. Rights in study records and other data registered by Users in the App ("User Data") belong to the Users.
+2. The operator uses User Data only to the extent necessary to provide, maintain, and improve the App.
+3. Interaction features such as rankings, rooms, and followers may display usernames, study time, and other information to other Users. Users shall use these features with their consent to such display.
+4. User Data is handled in accordance with the separately established Privacy Policy.
 
-Article 12 (Liability)
-Liability is limited to the extent permitted by law; indirect damages are excluded.
+Article 10 (Data Storage)
+The operator endeavors to store User Data but does not guarantee that it will not be lost or corrupted. Users should also keep their own copies of important data.
 
-Article 13 (Privacy)
-Information is handled according to the Privacy Policy.
+Article 11 (Service Changes, Interruptions, and Termination)
+1. The operator may interrupt all or part of the App without prior notice due to maintenance, failures, force majeure, or other circumstances.
+2. The operator may change the App or terminate its provision as necessary. When terminating the service, the operator will give advance notice within the App or on the website whenever possible.
 
-Article 14 (Changes)
-Terms can be updated; changes take effect once posted.
+Article 12 (Suspension of Use and Withdrawal)
+1. If a User violates these Terms, the operator may suspend that User's use without prior notice.
+2. Users may withdraw and request deletion of their data at any time by contacting the address specified in Article 17.
 
-Article 15 (Termination)
-Users can withdraw anytime. Breach results in termination.
+Article 13 (Disclaimer)
+1. The App is provided as is. The operator does not guarantee its accuracy, usefulness, continuity, or freedom from errors.
+2. The operator does not guarantee that using the App will produce learning outcomes.
+3. The operator is not responsible for disputes between Users arising through interaction features. However, the operator may take action when it considers it necessary.
+4. The operator is not responsible for damages incurred by Users due to interruption, change, or termination of the App, or loss or corruption of User Data.
+5. The disclaimers and limitations of liability in this Article and the following Article do not apply in cases of the operator's intentional misconduct or gross negligence.
 
-Article 16 (Jurisdiction)
-Governed by Japanese law; exclusive jurisdiction of the developer's local court.
+Article 14 (Limitation of Liability)
+Even when the operator is liable to a User for damages, liability is limited to ordinary direct damages actually incurred by that User.
+
+Article 15 (Changes to the Terms)
+1. The operator may change these Terms as necessary.
+2. Revised Terms take effect when posted within the App or on the website. Important changes will be announced in advance through such posting.
+3. Users who use the App after the changes are deemed to have agreed to the revised Terms.
+
+Article 16 (Governing Law and Jurisdiction)
+These Terms are governed by Japanese law. In the event of a dispute relating to the App, the court having jurisdiction under the Code of Civil Procedure shall be the court of first instance.
+
+Article 17 (Contact)
+Inquiries regarding these Terms and the App should be directed to the following contact.
+Operator: Mercury Administration Office
+Email: admin.mercury@gmail.com
 `;
