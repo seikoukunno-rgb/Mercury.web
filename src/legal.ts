@@ -1,198 +1,185 @@
 export const PRIVACY_POLICY = `
-Mercury プライバシーポリシー（最終統合・完全版）
+Mercury プライバシーポリシー
 
-第1条（基本方針および適用範囲）
-当開発者は、提供するアプリケーション「Mercury」（以下「本アプリ」といいます。）において、ユーザーの個人情報の保護を最重要事項として位置付けます。
-当開発者は、個人情報の保護に関する法律その他関連法令、各国規制（GDPR、CCPA等を含む）、およびGoogle API Services User Data Policyを遵守し、適法かつ公正な手段により情報を取得・利用・管理します。
+制定日：2026年10月5日
 
-また、以下の原則に基づき運用します：
-● 目的限定原則
-● データ最小化原則
-● 透明性の確保
-● 安全管理の徹底
-本ポリシーは、本アプリにおけるすべての個人情報の取扱いに適用されます。
+Mercury運営局（以下「運営者」という。）は、学習管理アプリ「Mercury」（以下「本アプリ」という。）におけるユーザーの個人情報およびデータの取扱いについて、本プライバシーポリシー（以下「本ポリシー」という。）を定める。
 
-第2条（定義）
-本ポリシーにおける用語は以下の通り定義します。
-● 「個人情報」：特定の個人を識別できる情報
-● 「ユーザーデータ」：ユーザーが本アプリに提供または生成するすべての情報
-● 「Googleユーザーデータ」：Googleアカウント連携により取得される情報
-● 「処理」：取得、保存、利用、削除等の一切の取扱い
+第1条（基本方針）
+運営者は、個人情報の保護に関する法律その他の関連法令、およびGoogle API Services User Data Policy（Limited Use の要件を含む。）を遵守し、必要な範囲で適正に個人情報を取り扱う。
 
-第3条（収集する情報）
-当開発者は以下の情報を収集します。
-1. ユーザー行動データ
-● 検索履歴、閲覧履歴
-● 学習時間、教材登録情報
-● 操作ログ、設定情報
-2. 技術情報
-● デバイス識別子（広告ID等）
-● OS、ブラウザ、言語設定
-● IPアドレス、アクセス日時
-3. Cookieおよび類似技術
-● セッション管理
-● 利用状況分析
-● 広告効果測定
-4. 外部連携情報
-● Google Driveアクセストークン
-● API経由のメタデータ
+第2条（取得する情報）
+運営者は、次の情報を取得する。
 
-第4条（Googleユーザーデータの特別規定）
-本アプリはGoogle Drive連携機能を提供するにあたり、以下を厳守します。
-1. 利用目的の厳格限定
-Googleユーザーデータは以下の目的にのみ使用されます：
-● ユーザーが指定したファイルの表示
-● 本アプリ内での閲覧機能提供
-※広告、分析、機械学習、第三者提供には一切利用しません。
-2. 非保存原則（Non-retention）
-● ファイル本体はサーバーに保存しません
-● データは一時的処理のみ
-● キャッシュも恒久保存しません
-3. 人的アクセス制限
-以下の場合を除き、人間がデータへアクセスすることはありません：
-● ユーザーからの明示的なサポート依頼
-● セキュリティ対応
-● 法令対応
-4. 第三者提供の禁止
-Googleユーザーデータは以下を除き提供されません：
-● 法令に基づく場合
-● 明示的同意
-5. セキュリティ管理
-● OAuthトークンの安全管理
-● HTTPS通信の強制
-● 不正アクセス防止
+1. Googleアカウントの情報
+   ユーザーがGoogleアカウントでログインする際に、メールアドレス、氏名、プロフィール画像を取得する。
+2. ユーザーが本アプリに登録する情報
+   学習記録、学習時間、Todo、ルームやフォロワーに関する情報、設定情報など、ユーザーが本アプリ上で作成・登録する情報。
+3. Googleドライブに関する情報
+   ユーザーがGoogleドライブ連携を許可し、ファイルを選択した場合に、そのファイルを表示するためのアクセス情報。
+4. 技術情報
+   本アプリの提供および不具合の把握のために、アクセス日時、利用環境などの情報を取得する場合がある。
+
+第3条（Googleユーザーデータの取扱い）
+1. 利用目的の限定
+本アプリが取得するGoogleユーザーデータ（メールアドレス、氏名、プロフィール画像、およびユーザーが選択したGoogleドライブ上のファイル）は、次の目的にのみ利用する。
+
+1. ユーザーの認証およびアカウントの識別
+2. ユーザーが選択したGoogleドライブ上のファイルを、本アプリ内で表示すること
+
+2. Limited Use の遵守
+運営者は、Googleユーザーデータを、広告、独自のAI・機械学習モデルの学習、または運営者もしくは第三者の別目的のために利用しない。
+
+3. Googleドライブのファイルについて
+本アプリは、ユーザーが選択したGoogleドライブ上のファイルを表示するのみであり、その内容を運営者のサーバーに保存しない。
+
+4. 権限の範囲
+本アプリは、ユーザーがGoogleドライブで選択したファイルにのみアクセスし、ドライブ内のその他のファイルにはアクセスしない。
+
+5. 連携の解除
+ユーザーは、Googleアカウントのセキュリティ設定（https://myaccount.google.com/permissions）から、いつでも本アプリへの連携を解除できる。
+
+第4条（情報の保存先）
+1. ユーザーのログイン情報および学習データは、Supabase, Inc.（以下「Supabase」という。）の提供するデータベース（東京リージョン）に保存される。
+2. 本アプリは、Vercel, Inc.（以下「Vercel」という。）のプラットフォーム上で提供される。
+3. Googleドライブ上のファイルの内容は、運営者のサーバーに保存されない。
 
 第5条（利用目的）
-収集した情報は以下の範囲で利用されます：
-● サービス提供・維持・改善
-● パーソナライズ
-● 不正利用検知
-● ユーザーサポート
-● 統計分析（匿名化データのみ）
-※目的外利用は行いません。
+運営者は、取得した情報を次の目的で利用する。
 
-第6条（広告およびトラッキング）
-本アプリは以下を利用します：
-● Amazonアソシエイト
-● 楽天アフィリエイト
-● メルカリアンバサダー
-これらはCookie等を利用する場合があります。ユーザーはブラウザ設定によりCookieを制御できます。
+1. 本アプリの提供、維持、および改善
+2. ユーザーの認証およびアカウントの管理
+3. 学習記録の保存および表示
+4. ランキング、ルーム、フォロワーなどの交流機能の提供
+5. 不正利用の防止および対応
+6. ユーザーからの問い合わせへの対応
+
+運営者は、上記の目的の範囲を超えて情報を利用しない。
+
+第6条（他のユーザーに表示される情報）
+本アプリの交流機能（ランキング、ルーム、フォロワーなど）では、ユーザー名、学習時間その他の一部の情報が、他のユーザーに表示される。ユーザーは、これを理解したうえで当該機能を利用するものとする。メールアドレスは、他のユーザーに表示されない。
 
 第7条（第三者提供）
-以下を除き、個人情報を第三者に提供しません：
-● 本人同意
-● 法令要求
-● 緊急保護
+運営者は、次の場合を除き、個人情報を第三者に提供しない。
 
-第8条（委託・外部処理）
-以下の処理を外部委託する場合があります：
-● クラウドインフラ
-● 認証
-● 分析
-委託先は適切に監督されます。
+1. ユーザーの同意がある場合
+2. 法令に基づく場合
+3. 人の生命、身体または財産の保護のために必要であって、本人の同意を得ることが困難な場合
 
-第9条（データ保存期間）
-1. 必要最小限の期間のみ保持
-2. 不要データは削除または匿名化
-3. 法令義務がある場合は保存
+第8条（外部サービスの利用）
+運営者は、本アプリの運営のために、前条にかかわらず、Google、Supabase、Vercelなどの外部サービスを利用する。これらのサービスにおける情報の取扱いは、各提供者の定めるプライバシーポリシーに従う。
 
-第10条（国際データ移転）
-個人情報は国外に移転される場合があります。この場合、適切な保護措置を講じます。
+第9条（データの保存期間）
+運営者は、利用目的の達成に必要な期間、情報を保存する。ユーザーが退会した場合、または削除の求めがあった場合は、法令で保存が義務付けられている場合を除き、その情報を速やかに削除する。
 
-第11条（安全管理措置）
-当開発者は以下を実施します：
-● SSL/TLS暗号化
-● アクセス制御
-● セキュリティ監査
-● 不正アクセス防止
-※完全な安全性は保証されません。
+第10条（安全管理措置）
+運営者は、情報の漏えい、滅失または毀損を防ぐため、通信の暗号化（HTTPS）、アクセス制御などの措置を講じる。ただし、インターネットを通じた情報の送受信において、完全な安全性を保証するものではない。
 
-第12条（ユーザーの権利）
-ユーザーは以下を行う権利を有します：
-● 開示
-● 訂正
-● 削除
-● 利用停止
-● データポータビリティ
+第11条（ユーザーの権利）
+ユーザーは、自己の個人情報について、開示、訂正、利用停止、削除を求めることができる。これらを希望する場合は、第13条の連絡先に申し出ること。運営者は、本人からの求めであることを確認のうえ、適切に対応する。
 
-第13条（未成年）
-未成年は保護者同意が必要です。
+第12条（本ポリシーの変更）
+1. 運営者は、必要に応じて本ポリシーを変更することがある。
+2. 変更後の本ポリシーは、本アプリまたはウェブサイトに掲載した時点から効力を生じる。重要な変更を行う場合は、掲載を通じて事前に知らせる。
 
-第14条（責任の限定）
-当開発者は以下について責任を負いません：
-● 外部サービス起因の問題
-● ユーザーの管理不備
-● 通信環境の問題
+第13条（連絡先）
+本ポリシーおよび個人情報の取扱いに関する問い合わせは、次の連絡先に行うこと。
+運営者：Mercury運営局
+メール：admin.mercury@gmail.com
 
-第15条（ポリシーの変更）
-1. 本ポリシーは変更可能
-2. 掲示時点で効力発生
-3. 継続利用で同意
-
-第16条（お問い合わせ）
-問い合わせはアプリ内または開発者へ。
+制定日：2026年10月5日
 `;
 
 export const PRIVACY_POLICY_EN = `
-Mercury Privacy Policy (Consolidated Full Version)
+Mercury Privacy Policy
 
-Article 1 (Basic Policy and Scope)
-The developer positions the protection of user personal information as the most important matter in the application "Mercury".
-The developer complies with personal information protection laws, relevant regulations (including GDPR, CCPA, etc.), and the Google API Services User Data Policy, and collects, uses, and manages information through lawful and fair means.
+Established: October 5, 2026
 
-Article 2 (Definitions)
-- "Personal Information": Information that can identify a specific individual.
-- "User Data": All information provided or generated by the user.
-- "Google User Data": Information obtained through Google account linkage.
+The Mercury Administration Office (the "Operator") establishes this Privacy Policy (the "Policy") regarding the handling of Users' personal information and data in the study management app "Mercury" (the "App").
 
-Article 3 (Information Collected)
-1. User Action Data: Search history, study time, material logs, etc.
-2. Technical Information: Device IDs, OS, Browser, IP address.
-3. Cookies: Session management, usage analysis.
-4. External Data: Google Drive access tokens and metadata.
+Article 1 (Basic Policy)
+The Operator complies with the Act on the Protection of Personal Information, other relevant laws and regulations, and the Google API Services User Data Policy (including the Limited Use requirements), and handles personal information appropriately within the necessary scope.
 
-Article 4 (Special Provisions for Google User Data)
-1. Strict Limitation of Purpose: Used ONLY for displaying files and viewing within the App. No ads, AI training, or sales.
-2. Non-retention: Files are NOT stored on servers; only temporary processing.
-3. Access Control: No human access except for support, security, or legal requirements.
-4. Third-party: No provision to third parties unless required by law.
-5. Security: Managed via safe OAuth tokens and HTTPS.
+Article 2 (Information Collected)
+The Operator collects the following information.
 
-Article 5 (Purpose of Use)
-Used for service provision, personalization, fraud detection, and support. No use beyond stated purposes.
+1. Google account information
+   Email address, name, and profile image are collected when a User signs in with a Google account.
+2. Information registered by Users in the App
+   Information created or registered by Users in the App, such as study records, study time, Todo items, information about rooms and followers, and settings.
+3. Google Drive information
+   Access information needed to display a file when a User authorizes Google Drive integration and selects that file.
+4. Technical information
+   Information such as access date and time and usage environment may be collected to provide the App and identify issues.
 
-Article 6 (Advertising and Tracking)
-Uses Amazon/Rakuten/Mercari affiliate systems. Cookies may be used and can be controlled by browser settings.
+Article 3 (Handling of Google User Data)
+1. Limitation of Purpose
+Google User Data obtained by the App (email address, name, profile image, and files selected by the User on Google Drive) is used only for the following purposes.
 
-Article 7 (Third-Party Provision)
-No provision to third parties except with consent, legal requirements, or emergencies.
+1. User authentication and account identification
+2. Displaying files selected by the User on Google Drive within the App
 
-Article 8 (Outsourcing)
-Infrastructure, auth, and analytics may be outsourced under supervision.
+2. Compliance with Limited Use
+The Operator does not use Google User Data for advertising, training its own AI or machine learning models, or other purposes of the Operator or third parties.
 
-Article 9 (Retention Period)
-Stored only for minimum necessary period. Deleted or anonymized when unnecessary.
+3. Google Drive Files
+The App only displays files selected by the User on Google Drive and does not store their contents on the Operator's servers.
 
-Article 10 (International Data Transfer)
-Appropriate protection is ensured during cross-border transfers.
+4. Scope of Permissions
+The App accesses only files selected by the User on Google Drive and does not access other files in the Drive.
 
-Article 11 (Security Measures)
-Encryption (SSL/TLS), access control, and audits are implemented.
+5. Revoking Integration
+Users may revoke the App's integration at any time through their Google account security settings (https://myaccount.google.com/permissions).
 
-Article 12 (User Rights)
-Rights for disclosure, correction, deletion, and data portability are respected.
+Article 4 (Information Storage)
+1. Users' login information and study data are stored in the database provided by Supabase, Inc. ("Supabase") in the Tokyo region.
+2. The App is provided on the platform of Vercel, Inc. ("Vercel").
+3. The contents of files on Google Drive are not stored on the Operator's servers.
 
-Article 13 (Minors)
-Requires parental consent.
+Article 5 (Purposes of Use)
+The Operator uses collected information for the following purposes.
 
-Article 14 (Limitation of Liability)
-Not liable for issues caused by external services, user negligence, or network environments.
+1. Providing, maintaining, and improving the App
+2. User authentication and account management
+3. Saving and displaying study records
+4. Providing interaction features such as rankings, rooms, and followers
+5. Preventing and responding to improper use
+6. Responding to inquiries from Users
 
-Article 15 (Policy Changes)
-Changes become effective once posted. Continued use constitutes agreement.
+The Operator does not use information beyond the scope of the purposes above.
 
-Article 16 (Inquiries)
-Contact via the app or developer.
+Article 6 (Information Displayed to Other Users)
+The App's interaction features (such as rankings, rooms, and followers) display usernames, study time, and some other information to other Users. Users shall use these features with an understanding of this display. Email addresses are not displayed to other Users.
+
+Article 7 (Disclosure to Third Parties)
+The Operator does not disclose personal information to third parties except in the following cases.
+
+1. With the User's consent
+2. When required by law
+3. When necessary to protect a person's life, body, or property and obtaining the person's consent is difficult
+
+Article 8 (Use of External Services)
+Notwithstanding the preceding Article, the Operator uses external services such as Google, Supabase, and Vercel to operate the App. Information handling by these services is subject to the privacy policies established by their respective providers.
+
+Article 9 (Data Retention Period)
+The Operator retains information for the period necessary to achieve the purposes of use. If a User withdraws or requests deletion, the Operator promptly deletes the information unless retention is required by law.
+
+Article 10 (Security Measures)
+The Operator implements measures such as encrypted communication (HTTPS) and access controls to prevent information leaks, loss, or damage. However, complete security of information transmitted over the internet is not guaranteed.
+
+Article 11 (User Rights)
+Users may request disclosure, correction, suspension of use, or deletion of their personal information. Users who wish to do so should contact the address in Article 13. The Operator will respond appropriately after verifying that the request is from the person concerned.
+
+Article 12 (Changes to This Policy)
+1. The Operator may change this Policy as necessary.
+2. The revised Policy takes effect when posted within the App or on the website. Important changes will be announced in advance through such posting.
+
+Article 13 (Contact)
+Inquiries regarding this Policy and the handling of personal information should be directed to the following contact.
+Operator: Mercury Administration Office
+Email: admin.mercury@gmail.com
+
+Established: October 5, 2026
 `;
 
 export const TERMS_OF_SERVICE = `

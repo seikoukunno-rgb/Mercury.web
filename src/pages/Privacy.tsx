@@ -32,7 +32,13 @@ const Privacy = () => {
 
           <div className="prose prose-slate max-w-none">
             <pre className="whitespace-pre-wrap font-sans text-mercury-muted leading-relaxed text-sm md:text-base">
-              {content}
+              {content.split(/(https:\/\/myaccount\.google\.com\/permissions)/).map((part, index) =>
+                part === 'https://myaccount.google.com/permissions' ? (
+                  <a key={index} href={part} className="text-mercury-blue underline break-all">
+                    {part}
+                  </a>
+                ) : part
+              )}
             </pre>
           </div>
         </motion.div>
