@@ -172,7 +172,7 @@ const Footer = () => {
             <ul className="space-y-4 text-sm text-mercury-muted font-medium">
               <li><Link to="/terms" className="hover:text-mercury-blue transition-colors">{t('footer.terms')}</Link></li>
               <li><Link to="/privacy" className="hover:text-mercury-blue transition-colors">{t('footer.privacy')}</Link></li>
-              <li><a href="mailto:support@mercury-study.io" className="hover:text-mercury-blue transition-colors">{t('footer.contact')}</a></li>
+              <li><a href="mailto:admin.mercury@gmail.com" className="hover:text-mercury-blue transition-colors">{t('footer.contact')}</a></li>
             </ul>
           </div>
         </div>
