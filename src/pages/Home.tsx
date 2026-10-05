@@ -15,7 +15,7 @@ import {
 import { motion } from 'motion/react';
 import { useLanguage } from '../context/LanguageContext';
 
-const MERCURY_APP_URL = "https://study-tracker-rzbj.vercel.app";
+const MERCURY_APP_URL = "https://mercury-study47.com/login";
 
 interface Feature {
   icon: React.ElementType;

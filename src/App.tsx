@@ -20,7 +20,7 @@ import Home from './pages/Home';
 import Privacy from './pages/Privacy';
 import Terms from './pages/Terms';
 
-const MERCURY_APP_URL = "https://study-tracker-rzbj.vercel.app";
+const MERCURY_APP_URL = "https://mercury-study47.com/login";
 
 const Logo = ({ className = "w-10 h-10" }: { className?: string }) => {
   const [error, setError] = useState(false);
